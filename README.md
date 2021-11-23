@@ -11,3 +11,12 @@ This is a scripting challenge using Bash.
 
 chmod +x task1.sh 
 
+
+
+##### 2. Create a script that identifies the current user and determines whether they have root/system permissions. If the user is privileged, determine whether the host has the file task2.txt in their temporary directory (C:\Temp or tmp). If the file exists, delete it, otherwise create it and add the machine name as an entry to the text file.
+- Inside the 'Jumotechnicalchallenge' folder :
+
+- Created a filename and named it 'task2.sh'.Changed the permissions of the file and make it executable using chmod +x:
+
+chmod +x task2.sh
+
