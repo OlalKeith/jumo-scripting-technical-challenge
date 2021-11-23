@@ -1,9 +1,13 @@
 #!/bin/bash
 
-#script to determine the OS version
-#filter the OS version
-grep '^VERSION' /etc/*release
+#declare a variable osversion and assign to $(grep -w "VERSION" /etc/*release),
+#filter the OS version using grep.
+#use -w option to match whole words
+osversion=$(grep -w "VERSION" /etc/*release)
+echo $osversion
 
-#create task1.txt file in tmp directory and write the os version into task1.txt file
-cat  /etc/*release > /tmp/task1.txt
-grep 'VERSION' /tmp/task1.txt
+#create task1.txt file in tmp directory and write the os version into task1.txt f>
+
+echo $osversion>/tmp/task1.txt
+cat /tmp/task1.txt
+
