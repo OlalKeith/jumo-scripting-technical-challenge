@@ -9,7 +9,9 @@ This is a scripting challenge using Bash.
 
 - Created a filename and named it 'task1.sh'.Changed the permissions of the file and make it executable using chmod +x:
 
-chmod +x task1.sh 
+chmod +x task1.sh
+
+solution for challenge 1: [Task 1](https://github.com/OlalKeith/jumo-scripting-technical-challenge/blob/main/task1.sh)
 
 
 
@@ -19,4 +21,6 @@ chmod +x task1.sh
 - Created a filename and named it 'task2.sh'.Changed the permissions of the file and make it executable using chmod +x:
 
 chmod +x task2.sh
+
+solution for challenge 2: [Task 2](https://github.com/OlalKeith/jumo-scripting-technical-challenge/blob/main/task2.sh)
 
