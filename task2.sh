@@ -13,7 +13,8 @@ if [ $currentUser != 'root' ]; then
 
 #check to see if _user equals root. 
 elif [ "$currentUSer" == 'root' ]; then
-echo "I am root"
+echo "I am root". #this message will display if you switch to root user by using sudo su command. 
+
 
 elif [ -f $FILE ]; then
   echo "File $FILE does not exist."
