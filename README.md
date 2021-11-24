@@ -1,6 +1,8 @@
 # jumo-scripting-technical-challenge
 This is a scripting challenge using Bash.
 
+- > As a POC(Proof of concept) , download the files and execute using chmod +x command on your linux terminal.
+
 
 ##### 1. Create a script that determines the OS version. The script should then create a file task1.txt in the temporary directory (C:\Temp or tmp). The script should finally write the OS version into the file task1.txt.
 - > First I created a folder and named it 'Jumotechnicalchallenge' :
@@ -10,6 +12,7 @@ This is a scripting challenge using Bash.
 - > Created a filename and named it 'task1.sh'.Changed the permissions of the file and make it executable using chmod +x:
 
 *chmod +x task1.sh*
+
 
 >link to solution for challenge 1: [Task 1](https://github.com/OlalKeith/jumo-scripting-technical-challenge/blob/main/task1.sh)
 
@@ -21,6 +24,7 @@ This is a scripting challenge using Bash.
 - > Created a filename and named it 'task2.sh'.Changed the permissions of the file and make it executable using chmod +x:
 
 *chmod +x task2.sh*
+
 
 >link to solution for challenge 2: [Task 2](https://github.com/OlalKeith/jumo-scripting-technical-challenge/blob/main/task2.sh)
 
