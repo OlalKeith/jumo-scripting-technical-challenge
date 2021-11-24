@@ -12,7 +12,7 @@ if [ $currentUser != 'root' ]; then
     echo "You must be root to do this."
 
 #check to see if _user equals root. 
-elif [ "$currentUSer" == 'root' ]; then
+elif [ "$currentUser" == 'root' ]; then
 echo "I am root". #this message will display if you switch to root user by using sudo su command. 
 
 
